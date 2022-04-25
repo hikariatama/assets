@@ -3968,7 +3968,7 @@
         ],
         [
             "Create a stickerset, bots only.",
-            "<strong>masks</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.0?<a href=\"/constructor/true\">true</a> | Whether this is a mask stickerset\n<strong>animated</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.1?<a href=\"/constructor/true\">true</a> | Whether this is an animated stickerset\n<strong>videos</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.4?<a href=\"/constructor/true\">true</a> | Whether this is a video stickerset\n<strong>user_id</strong> | <a href=\"/type/InputUser\">InputUser</a> | Stickerset owner\n<strong>title</strong> | <a href=\"/type/string\">string</a> | Stickerset name, <code>1-64</code> chars\n<strong>short_name</strong> | <a href=\"/type/string\">string</a> | Sticker set name. Can contain only English letters, digits and underscores. Must end with <em>\"</em>by<em><bot username=\"\">\"</bot></em> (<em><bot_username></bot_username></em> is case insensitive); 1-64 characters\n<strong>thumb</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.2?<a href=\"/type/InputDocument\">InputDocument</a> | Thumbnail\n<strong>stickers</strong> | <a href=\"/type/Vector%20t\">Vector</a>&lt;<a href=\"/type/InputStickerSetItem\">InputStickerSetItem</a>&gt; | Stickers\n<strong>software</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.3?<a href=\"/type/string\">string</a> | Used when <a href=\"/import-stickers\">importing stickers using the sticker import SDKs</a>, specifies the name of the software that created the stickers"
+            "<strong>masks</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.0?<a href=\"/constructor/true\">true</a> | Whether this is a mask stickerset\n<strong>animated</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.1?<a href=\"/constructor/true\">true</a> | Whether this is an animated stickerset\n<strong>videos</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.4?<a href=\"/constructor/true\">true</a> | Whether this is a video stickerset\n<strong>user_id</strong> | <a href=\"/type/InputUser\">InputUser</a> | Stickerset owner\n<strong>title</strong> | <a href=\"/type/string\">string</a> | Stickerset name, <code>1-64</code> chars\n<strong>short_name</strong> | <a href=\"/type/string\">string</a> | Sticker set name. Can contain only English letters, digits and underscores. Must end with <em>\"</em>by<em>&lt;bot username=\"\"&gt;\"&lt;/bot&gt;</em> (<em>&lt;bot_username&gt;&lt;/bot_username&gt;</em> is case insensitive); 1-64 characters\n<strong>thumb</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.2?<a href=\"/type/InputDocument\">InputDocument</a> | Thumbnail\n<strong>stickers</strong> | <a href=\"/type/Vector%20t\">Vector</a>&lt;<a href=\"/type/InputStickerSetItem\">InputStickerSetItem</a>&gt; | Stickers\n<strong>software</strong> | <a href=\"/mtproto/TL-combinators#conditional-fields\">flags</a>.3?<a href=\"/type/string\">string</a> | Used when <a href=\"/import-stickers\">importing stickers using the sticker import SDKs</a>, specifies the name of the software that created the stickers"
         ],
         [
             "Create a theme",
@@ -6667,7 +6667,7 @@
         ],
         [
             "Send a <a href=\"/api/dice\">dice-based animated sticker</a>",
-            "<strong>emoticon</strong> | <a href=\"/type/string\">string</a> | The emoji, for now <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8F80.png\" width=\"20\" height=\"20\" alt=\"🏀\" />, <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8EB2.png\" width=\"20\" height=\"20\" alt=\"🎲\" /> and <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8EAF.png\" width=\"20\" height=\"20\" alt=\"🎯\" /> are supported"
+            "<strong>emoticon</strong> | <a href=\"/type/string\">string</a> | The emoji, for now 🏀, 🎲 and 🎯 are supported"
         ],
         [
             "Forwarded document",
@@ -7023,7 +7023,7 @@
         ],
         [
             "Used for fetching <a href=\"/api/dice\">animated dice stickers</a>",
-            "<strong>emoticon</strong> | <a href=\"/type/string\">string</a> | The emoji, for now <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8F80.png\" width=\"20\" height=\"20\" alt=\"🏀\" />, <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8EB2.png\" width=\"20\" height=\"20\" alt=\"🎲\" /> and <img class=\"emoji\" src=\"//telegram.org/img/emoji/40/F09F8EAF.png\" width=\"20\" height=\"20\" alt=\"🎯\" /> are supported"
+            "<strong>emoticon</strong> | <a href=\"/type/string\">string</a> | The emoji, for now 🏀, 🎲 and 🎯 are supported"
         ],
         [
             "Empty constructor",
